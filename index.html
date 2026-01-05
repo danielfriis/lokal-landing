@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lokal.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+        }
+
+        body {
+            background-color: #dde2db;
+            color: #1e4b44;
+            font-family: 'Crimson Text', serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        main {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: clamp(3rem, 10vw, 6rem);
+            font-weight: 600;
+            letter-spacing: -0.02em;
+        }
+
+        .tagline {
+            margin-top: 0.5rem;
+            font-size: clamp(1rem, 2.5vw, 1.25rem);
+            font-weight: 400;
+            opacity: 0.85;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 2rem;
+            text-align: center;
+            font-family: system-ui, sans-serif;
+            font-size: 0.875rem;
+        }
+
+        .contact {
+            margin-bottom: 0.75rem;
+        }
+
+        .contact a {
+            color: #1e4b44;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        .contact span {
+            margin: 0 0.5rem;
+            opacity: 0.5;
+        }
+
+        .copyright {
+            opacity: 0.6;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Lokal.</h1>
+        <p class="tagline">Attraktive erhvervslokaler, lokalt forankret</p>
+    </main>
+    <footer>
+        <p class="contact">
+            <a href="tel:+4560514943">+45 6051 4943</a>
+            <span>·</span>
+            <a href="mailto:kontakt@lokal-ejendomme.dk">kontakt@lokal-ejendomme.dk</a>
+        </p>
+        <p class="copyright">© 2026 Lokal Ejendomme ApS</p>
+    </footer>
+</body>
+</html>
+
